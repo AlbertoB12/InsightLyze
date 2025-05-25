@@ -1,6 +1,4 @@
 # InsightLyze
-This repository contains the code developed as part of my master's thesis:  
-**"Öffentliche Meinungsanalyse zu Plastikverschmutzung: Eine Fallstudie zur effizienten Nutzung von Social Media Analyse und Large Language Models"**, submitted to the University of Stuttgart.
 
 ## 🧠 Project Summary
 
