@@ -1,28 +1,29 @@
-###InsightLyze, the social media Analysis X tool### \### VERSION: 1.0
-\###
+# InsightLyze: Social Media Analysis Tool for X (formerly Twitter)
 
-\# InsightLyze is a user-friendly software that offers, with less user
-attention, the possibility to scrape and analyse X data.
+**Version: 1.0**
 
-\# It requieres Python 3.11. and a Python Interpreter (IDE).
+InsightLyze is a user-friendly Python application for scraping and analyzing data from X (formerly Twitter) with minimal user effort. It allows users to classify tweets by **sentiment**, **emotion**, and **topic**, and generate insightful **statistics** such as **n-grams** and **word clouds**.
 
-\# Additional packages are automatically installed.
+---
 
-\# To execute the software, open main.py.
+## 🚀 Features
 
-\# Please, DO NOT modify or delete any script or file.
+- 🔍 **Search Query Creation**
+- 🐦 **Tweet Scraping** (requires valid X API keys)
+- 🧠 **Tweet Classification** using LLaMA 3.1 8B Instruct and prompt engineering
+- 📊 **Text Analysis**: Sentiment, Emotion, Topic
+- 📈 **Data Visualizations**: Word clouds, n-grams, classification statistics
 
-\# You need valid X-keys to scrape the social network
+> ⚠️ For tweet classification, you must add your own **annotation guidelines** (see `/guidelines/` folder or related script section).
 
-\# Features: Search query creation, tweets scraping, tweets
-classification (sentiment, emotion and topic) and statistics (n_grams,
-wordcloud and classifications). \# For tweets classification, user has
-to add his own guidelines.
+---
 
-\# For tweets classification, the software uses an LLM (LLaMa 3.1 8B instruct) and prompt engineering.
+## 🛠 Requirements
 
-\# Licence: Proprietary License. You may not copy, modify,
-distribute, or use this software in any way without explicit permission
-from the author. Unauthorized distribution or modification of this
-software is prohibited. For any inquiries or requests related to the use
-of this software, please contact author.
+- Python **3.11**
+- A Python IDE or Interpreter (e.g., VSCode, PyCharm, or Jupyter)
+- Internet access for LLM API calls (if hosted externally)
+
+> 🔧 Additional Python packages will be automatically installed on first run.
+
+---
