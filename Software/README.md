@@ -14,7 +14,7 @@ InsightLyze is a user-friendly Python application for scraping and analyzing dat
 - 📊 **Text Analysis**: Sentiment, Emotion, Topic
 - 📈 **Data Visualizations**: Word clouds, n-grams, classification statistics
 
-> ⚠️ For tweet classification, you must add your own **annotation guidelines** (see `/guidelines/` folder or related script section).
+> ⚠️ For tweet classification, you must add your own **annotation guidelines**
 
 ---
 
